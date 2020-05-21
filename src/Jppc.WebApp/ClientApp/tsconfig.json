@@ -1,0 +1,18 @@
+{
+  "exclude": [
+    "node_modules",
+    "build",
+  ],
+  "compilerOptions": {
+    "allowJs": false,
+    "checkJs": false,
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "sourceMap": true,
+    "target": "es5",
+    "lib": ["es2018", "dom"],
+    "jsx": "react"
+  }
+}
